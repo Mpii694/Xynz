@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © SKYZOPEDIA                [+]${NC}"
+  echo -e "${BLUE}[+]                  © XYNZ GANTENG                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -56,7 +56,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAFATHAR CODE            [+]${NC}"
+  echo -e "${BLUE}[+]               LINCENSI XYNZ GANTENG            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
@@ -92,15 +92,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/Mpii694/xynz/raw/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/Mpii694/xynz/raw/main/billinh.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/Mpii694/xynz/raw/main/enigma.zip")
         break
         ;; 
       x)
