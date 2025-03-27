@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "Dilarang Keras Share Bebas."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@skyzodev"
+  echo -e "@Memek"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@skyzopedia"
+  echo -e "@Memek"
   sleep 4
   clear
 }
@@ -62,7 +62,7 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "skyzodev" ]; then
+  if [ "$USER_TOKEN" = "xynzganteng" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
